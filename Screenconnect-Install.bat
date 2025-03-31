@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Setup deployment URL  --PUT IN YOUR SITE PREFIX!--
-set "DeploymentURL=https://YOURSITE.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi"
+set "DeploymentURL="https://YOURSITE.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access`"&`"y=Guest""
 
 :: Define the service name to search for (change this as needed)
 set "SEARCH_SERVICE=ScreenConnect"
